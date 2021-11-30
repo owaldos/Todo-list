@@ -1,0 +1,19 @@
+.title{
+    font-family: 'Poiret One', cursive;
+    font-size:125px;
+    
+    color: rgb(185, 185, 192);
+}
+
+.input{
+    border: none;
+    outline: none;
+    font-size: 50px;
+    color: rgb(118, 118, 124);
+    display: inline-block;
+    width: 100%;
+    
+}
+.f{
+    font-size: 40px;
+}
