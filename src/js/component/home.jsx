@@ -70,9 +70,15 @@ const Home = () => {
 								return (
 									<li
 										className="list-group-item f"
-										key={index}
-										onClick={() => deleteTask(index)}>
-										{item.label}
+										key={index}>
+										<div className="d-flex justify-content-between align-items-center">
+											{item.label}
+											<i
+												className="fas fa-trash-alt text-muted"
+												onClick={() =>
+													deleteTask(index)
+												}></i>
+										</div>
 									</li>
 								);
 							})}
